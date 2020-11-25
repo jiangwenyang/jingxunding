@@ -5,8 +5,8 @@ const log = console.log;
 
 const baseUrl = 'https://www.bjjnts.cn'
 
-const username = '' // 在这里输入你的账号
-const password = '' // 这里输入这里的密码
+const username = '在这里输入你的账号'
+const password = '这里输入这里的密码'
 
 const login = async (page, username, password) => {
   await page.goto(`${baseUrl}/login`);
