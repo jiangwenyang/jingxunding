@@ -5,8 +5,8 @@ const log = console.log;
 
 const baseUrl = 'https://www.bjjnts.cn'
 
-const username = '在这里输入你的账号'
-const password = '这里输入这里的密码'
+const username = '500108199101096116'
+const password = 'y13271814371'
 
 const login = async (page, username, password) => {
   await page.goto(`${baseUrl}/login`);
@@ -185,7 +185,7 @@ const getCookiesString = async (page) => {
       await learnLesson(unFinishLessionList[index], cookies)
     }
 
-    log(chalk.gray(`---- 开始学习课程：${courseName} ----\n`))
+    log(chalk.gray(`---- 结束学习课程：${courseName} ----\n`))
 
 
   }), Promise.resolve())
